@@ -1,0 +1,141 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_EDIT DIALOGEX 0, 0, 421, 310
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TileMap"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,306,289,50,14
+    PUSHBUTTON      "취소",IDCANCEL,364,289,50,14
+    RTEXT           "CountX",IDC_STATIC,5,5,55,14
+    EDITTEXT        IDC_EDIT_COUNTX,78,5,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "CountY",IDC_STATIC,157,5,55,14
+    EDITTEXT        IDC_EDIT_COUNTY,222,5,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "SizeX",IDC_STATIC,5,26,55,14
+    EDITTEXT        IDC_EDIT_SIZEX,78,26,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "SizeY",IDC_STATIC,157,25,55,14
+    EDITTEXT        IDC_EDIT_SIZEY,222,25,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "생 성",IDC_BUTTON_CREATE_TILEMAP,298,5,105,35
+    PUSHBUTTON      "이미지 불러오기",IDC_BUTTON_LOADTEXTURE,137,51,72,26
+    LISTBOX         IDC_LIST_TEXTURE,19,51,112,117,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_TEXTURE_FRAME,228,51,103,117,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_STARTFRAMEX,338,51,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STARTFRAMEY,338,70,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ENDFRAMEX,337,90,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ENDFRAMEY,337,111,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "프레임 추가",IDC_BUTTON_ADD_FRAME,337,133,66,35
+    GROUPBOX        "TileEdit",IDC_STATIC,20,174,383,109
+    COMBOBOX        IDC_COMBO_BRUSH_TYPE,21,185,90,44,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_OPTION,135,186,90,44,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "저 장",IDC_BUTTON_SAVE,263,183,66,35
+    PUSHBUTTON      "불러오기",IDC_BUTTON_LOAD,337,183,66,35
+    PUSHBUTTON      "배경 불러오기",IDC_BUTTON_LOADTEXTURE_BACK,138,87,72,26
+    CONTROL         "Render",IDC_CHECK_RENDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,208,55,24
+    CONTROL         "SideCollision",IDC_CHECK_SIDECOLLISION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,88,208,55,24
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 414
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 303
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_EDIT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

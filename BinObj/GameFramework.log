@@ -1,0 +1,115 @@
+﻿  Animation.cpp
+  AnimationInfo.cpp
+  Collider.cpp
+  ColliderBox.cpp
+  ColliderCircle.cpp
+  CollisionManager.cpp
+  GameInfo.cpp
+  GameManager.cpp
+  AddBombItem.cpp
+  AngelCut.cpp
+  AngelNpc.cpp
+  Angre.cpp
+  AurellionSol.cpp
+  BackObj.cpp
+  Barrier.cpp
+  Bomb.cpp
+  Bomb2.cpp
+  BossCrossBomb.cpp
+  BossFinalBomb.cpp
+  BossLastBomb.cpp
+  컴파일하고 있습니다...
+  BossMonster.cpp
+  BossMonsterBomb.cpp
+  BossMonsterDie2Effect.cpp
+  BossMonsterDieEffect.cpp
+  BossNpc.cpp
+  Box.cpp
+  Bullet.cpp
+  CCharacter.cpp
+  DieEffect.cpp
+  Effect.cpp
+  FinalBomb.cpp
+  FinalBoss.cpp
+  FinalCut.cpp
+  GameObject.cpp
+  Monster.cpp
+  Monster2DieEffect.cpp
+  Monster2RealDieEffect.cpp
+  MonsterBomb.cpp
+  MonsterDieEffect.cpp
+  MonsterEffect.cpp
+  컴파일하고 있습니다...
+  MonsterRealDieEffect.cpp
+  Npc.cpp
+  Player.cpp
+  PlayerRocket.cpp
+  Power.cpp
+  Power1Effect.cpp
+  Power2Bomb.cpp
+  PowerBomb.cpp
+  PowerItem.cpp
+  RealDieEffect.cpp
+  RocketEffect.cpp
+  RocketItem.cpp
+  RocketOn.cpp
+  SecondMonster.cpp
+  ShoesItem.cpp
+  SpeedItem.cpp
+  StarItem.cpp
+  TalonM.cpp
+  Talon.cpp
+  Tile.cpp
+  컴파일하고 있습니다...
+  TileMap.cpp
+  Tornado.cpp
+  Input.cpp
+  main.cpp
+  PathManager.cpp
+  Ref.cpp
+  AnimationManager.cpp
+  AnimationSequence.cpp
+  Font.cpp
+  FontManager.cpp
+  ResourceManager.cpp
+  Sound.cpp
+  SoundManager.cpp
+  Texture.cpp
+  TextureManager.cpp
+  BossScene.cpp
+  Camera.cpp
+  ClearScene.cpp
+  ClearSecondScene.cpp
+  EditDlg.cpp
+  컴파일하고 있습니다...
+  EditScene.cpp
+  GameClearScene.cpp
+  MainScene.cpp
+  Scene.cpp
+  SceneCollision.cpp
+  SceneManager.cpp
+  SceneResource.cpp
+  SecondScene.cpp
+  StartScene.cpp
+  Timer.cpp
+  Button.cpp
+  CharacterHUD.cpp
+  CheckBox.cpp
+  ClearSecondWindow.cpp
+  ClearWindow.cpp
+  GameClearWindow.cpp
+  Icon.cpp
+  Image.cpp
+  Number.cpp
+  ProgressBar.cpp
+  컴파일하고 있습니다...
+  StartWindow.cpp
+  Text.cpp
+  Widget.cpp
+  WidgetComponent.cpp
+  WidgetWindow.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 6449 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  GameFramework.vcxproj -> D:\NewAPI\GameFramework\GameFramework\BIn\GameFramework.exe
