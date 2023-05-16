@@ -494,7 +494,7 @@ void CTexture::Load(FILE* File)
 			LoadTexture(m_vecImageInfo[0], m_vecImageInfo[0]->FileName, m_vecImageInfo[0]->PathName);
 
 		else
-			LoadTextureFullPath(m_vecImageInfo[0], m_vecImageInfo[0]->FullPath);
+			LoadTexture(m_vecImageInfo[0], TEXT("Box.bmp"),TEXTURE_PATH);
 	}
 
 	else
